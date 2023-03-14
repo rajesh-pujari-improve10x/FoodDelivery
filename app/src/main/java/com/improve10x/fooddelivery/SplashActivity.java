@@ -15,7 +15,7 @@ public class SplashActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         Handler handler = new Handler();
         handler.postDelayed(() -> {
-            Intent intent = new Intent(this, OrderDetailsActivity.class);
+            Intent intent = new Intent(this, FoodItemsActivity.class);
             startActivity(intent);
             finish();
         }, 2000);
